@@ -20,3 +20,17 @@ node main.js -c development initial-script -f ./workspace/your-config-file.json
 
 * добавлена возможность обернуть скрипт в транзакцию `compareOptions.transaction=true`;
 * добавлена возможность пропустить генерацию схемы: `compareOptions.schemaCompare.disable=true`;
+
+## Получение последних изменений
+
+<pre>
+git remote add upstream https://github.com/michaelsogos/pg-diff
+git pull upstream master
+</pre>
+
+## Тегирование
+
+<pre>
+git tag 3.0.0
+git push origin tag 3.0.0
+</pre>
