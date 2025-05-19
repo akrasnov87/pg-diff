@@ -73,4 +73,4 @@ typings/
 /pg-diff-config_hpos.json
 *.lock
 workspace
-*-lock.json
+package-lock.json
