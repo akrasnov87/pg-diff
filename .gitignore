@@ -72,3 +72,5 @@ typings/
 # Serverless directories
 /pg-diff-config_hpos.json
 *.lock
+workspace
+*-lock.json

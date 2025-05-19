@@ -7,6 +7,14 @@
 		{
 			"type": "node",
 			"request": "launch",
+			"name": "My Launch Compare",
+			"program": "${workspaceFolder}/main.js",
+			"args": ["-c", "${input:configName}", "test"],
+			"console": "integratedTerminal"
+		},
+		{
+			"type": "node",
+			"request": "launch",
 			"name": "Launch Compare",
 			"program": "${workspaceFolder}\\main.js",
 			"args": ["-c", "${input:configName}", "test"],

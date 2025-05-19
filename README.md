@@ -3,5 +3,20 @@ PostgreSQL schema and data comparing tool
 
 [Documentation is here](https://michaelsogos.github.io/pg-diff/)
 
-## If you like ...
-[![Support this project via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/michaelsogos)
+## Fork
+
+Является [fork'ом](https://github.com/michaelsogos/pg-diff)
+
+## Применение
+
+Пример конфигурации указан в файле `pg-diff-config.json`.
+
+<pre>
+npm install
+node main.js -c development initial-script -f ./workspace/your-config-file.json
+</pre>
+
+### Отличие
+
+* добавлена возможность обернуть скрипт в транзакцию `compareOptions.transaction=true`;
+* добавлена возможность пропустить генерацию схемы: `compareOptions.schemaCompare.disable=true`;
