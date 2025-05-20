@@ -74,3 +74,4 @@ typings/
 *.lock
 workspace
 package-lock.json
+*-release-config.json
